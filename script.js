@@ -8,7 +8,7 @@ async function sendToAI() {
     const response = await fetch("https://api-inference.huggingface.co/models/gpt2", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer YOUR_HUGGINGFACE_API_KEY",
+        "Authorization": "Bearer ",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ inputs: input })
